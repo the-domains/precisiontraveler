@@ -1,28 +1,40 @@
-name: Precisiontraveler
-favicon: null
-layout_spectrum: 0.67857
-typography_spectrum: 0.64408
-cta:
-  domain: null
-  bucket: null
-  version: null
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+layout_spectrum: 0.67857
+cta:
+  bucket: null
+  version: null
+  domain: null
 color:
+  saturation: 0.1875
+  brandStrength: 0.1875
+  rhythmicContrast: 0.3948589379433542
   brandColors:
     - '#0a0a0c'
     - '#ffffff'
     - '#acb4c1'
     - '#65696a'
     - '#768fa1'
-  brandStrength: 0.1875
-  lightness: 0.38471582089550793
-  saturation: 0.1875
-  rhythmicContrast: 0.39485893794335425
+  lightness: 0.3847158208955079
 purpose: []
+favicon: null
+name: Precisiontraveler
+typography_spectrum: 0.64408
